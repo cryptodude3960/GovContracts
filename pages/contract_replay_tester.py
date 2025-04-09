@@ -57,7 +57,7 @@ if st.button("🔍 Run Test Query on SAM.gov"):
         if results:
             st.success(f"Found {len(results)} opportunities matching the test criteria.")
             for r in results:
-                st.markdown(f"**{r.get('title')}**  
+                st.markdown(f"**{r.get('title')}**")  
 "
                             f"Agency: {r.get('department', {}).get('name', '')}  
 "
